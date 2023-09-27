@@ -1,0 +1,23 @@
+* {
+    overflow-x: hidden;
+}
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.card > div > img {
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    align-items: center;
+}
+.card > div {
+    overflow-y: hidden;
+    border: .2rem solid white;
+    box-shadow: 0 .2rem .4rem 0 rgba(255, 255, 255, 0.8), 0 .25rem 1.25rem 0 rgba(255, 255, 255, 0.81);
+    transition: 0.3s;
+    max-height: 35rem;
+    max-width: 40rem;
+    border-radius: 1.2rem;
+    margin: 1rem;
+  }

@@ -1,0 +1,94 @@
+.form {
+    position: relative;
+    top: 12rem;
+    left: 35em;
+    text-align: center;
+    height: 25rem;
+    width: 25rem;
+    background-color: black;
+}
+
+.form h1, h3 {
+    color: white;
+}
+
+.email-input {
+    position: relative;
+    right: 6rem;
+    top: 5rem;
+}
+
+.pass-input {
+    position: relative;
+    top:10rem;
+    right: 6rem;
+}
+
+.login-btn {
+    position: relative;
+    background-color: red;
+    color: white;
+    border-color: white;
+    border: 2px;
+    text-align: center;
+    border-radius: 2rem;
+    width: 10rem;
+    height: 1.5rem;
+    top: 15rem;
+}
+
+.login-btn:hover{
+    background-color: white;
+    color: red;
+    border-color: red;
+    border: 2px;
+}
+
+.form2{
+position: relative;
+top: 10rem;
+right: 20rem;
+text-align: center;
+height: 20rem;
+width: 20rem;
+background-color: darkcyan;
+}
+.form2 h2,h3 {
+    color: aqua;
+     
+}
+.email2-input{
+    position: relative;
+    top: 5rem;
+    right: 10rem;
+}
+.pass2-input{
+    position: relative;
+    top: 10rem;
+    right: 5rem;
+
+}
+.signup-btn{
+    background-color: black;
+    text-align: center;
+    position: relative;
+    color: white;
+    border-color: white;
+    border-radius: 2rem;
+    width: 10rem;
+    height: 1.5rem;
+    top: 10rem;
+
+}
+.signup-btn :hover{
+background-color: aliceblue;
+color: black;
+border-color: black;
+border: 3px;
+
+
+
+
+}
+
+
